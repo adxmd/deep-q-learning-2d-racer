@@ -1,4 +1,4 @@
-# Racing a Car using Deep Reinforcement Learning with PyTorch
+# Training an AI Agent to race a car using Deep Reinforcement Learning in PyTorch
 
 Implements Q-Learning with a Convolution Neural Network to create a Deep Q-Learning RL Agent that is able to be trained to complete laps on a 2D racetrack from OpenAI's Gymnasium.
 
