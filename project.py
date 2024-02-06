@@ -20,13 +20,11 @@ LEARNING_RATE = 0.0001      #learning rate for the Adam optimizer
 
 racer = RaceCarDriver(env, LEARNING_RATE, GAMMA, EPSILON_START, EPSILON_END, EPSILON_DECAY, TARGET_UPDATE_RATE, 10000, BATCH_SIZE, device)
 
-# racer.train(200000)
+# racer.train(200000) #train agent on 200k timesteps
 
-# racer.train(100000)
+# racer.train(100000) #train agent on 100k timesteps
 
-# racer.train(10000)
-
-# racer.saveModels()
+# racer.train(10000) #train agent on 10k timesteps
 
 # LOAD 10 episode TIME STEP MODEL
 # custom_policy_cnn_path = os.path.join('Training', 'Saved Models', 'Custom_P_Driving_Model_10ep')
@@ -47,50 +45,53 @@ racer = RaceCarDriver(env, LEARNING_RATE, GAMMA, EPSILON_START, EPSILON_END, EPS
 custom_policy_cnn_path_200888 = os.path.join('Training', 'Saved Models', 'Custom_P_Driving_Model_200888steps')
 custom_target_cnn_path_200888 = os.path.join('Training', 'Saved Models', 'Custom_T_Driving_Model_200888steps')
 racer.loadModel(custom_policy_cnn_path_200888, custom_target_cnn_path_200888, 200888)
-
+testAgent(env, racer, 5)
 
 #"""
-print("Testing")
 
-max_ep = 20
-
-totalReward = 0
-
-for ep_count in range(max_ep):
-
-    episode_reward = 0
-    done = False
-    state, _ = env.reset()
-
-    state = processImage(state, device)
-    episode_steps = 0
-    numNegativeInRow = 0
-
-    while not done:
-        env.render()
-        actionTensor = racer.chooseAction(state, exploit=True)
-        next_state, reward, truncated, done, info = env.step(actionTensor.item())
-        episode_reward += reward
-
-        episode_steps += 1
-
-        numNegativeInRow = numNegativeInRow + 1 if episode_steps > 50 and reward < 0 else 0
-
-
-
-        if truncated or numNegativeInRow >= 75:
-            done = True
-            break
-
-        next_state = processImage(next_state, device)
-
-        state = next_state
-
-    print('Episode: {}, Episode Reward: {}'.format(ep_count, episode_reward))
-    totalReward += episode_reward
-env.close()
-
-print("Average reward over " + str(max_ep) + " episodes: " + str(totalReward / max_ep))
+def testAgent(env, agent, numEps):
+    
+    print("Testing")
+    
+    max_ep = numEps
+    
+    totalReward = 0
+    
+    for ep_count in range(max_ep):
+    
+        episode_reward = 0
+        done = False
+        state, _ = env.reset()
+    
+        state = processImage(state, device)
+        episode_steps = 0
+        numNegativeInRow = 0
+    
+        while not done:
+            env.render()
+            actionTensor = agent.chooseAction(state, exploit=True)
+            next_state, reward, truncated, done, info = env.step(actionTensor.item())
+            episode_reward += reward
+    
+            episode_steps += 1
+    
+            numNegativeInRow = numNegativeInRow + 1 if episode_steps > 50 and reward < 0 else 0
+    
+    
+    
+            if truncated or numNegativeInRow >= 75:
+                done = True
+                break
+    
+            next_state = processImage(next_state, device)
+    
+            state = next_state
+    
+        print('Episode: {}, Episode Reward: {}'.format(ep_count, episode_reward))
+        totalReward += episode_reward
+    env.close()
+    
+    print("Average reward over " + str(max_ep) + " episodes: " + str(totalReward / max_ep))
 
 #"""
 
