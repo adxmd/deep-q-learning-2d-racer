@@ -9,7 +9,7 @@ import time
 import os
 from collections import namedtuple, deque
 from itertools import count
-from helper_functions import processImage, plot_durations, plot_rewards
+from helper_functions import *
 
 #Input as 96x96x3 = 9,216 x 3 = 27,648
 #input size = 96x96 = 9216
