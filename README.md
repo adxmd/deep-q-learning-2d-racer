@@ -2,6 +2,8 @@
 
 Implements Q-Learning with a Convolution Neural Network to create a Deep Q-Learning RL Agent that is able to be trained to complete laps on a 2D racetrack from OpenAI's Gymnasium.
 
+__Demonstration of Training Progression:__ [https://youtu.be/MuIts-YeSXw](https://youtu.be/MuIts-YeSXw)
+
 ## To run this:
 
 **Install Dependencies**
