@@ -4,11 +4,9 @@ import os
 
 from model import *  
 
-env = gymnasium.make("CarRacing-v2",continuous=False, render_mode="human")
-
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
 BATCH_SIZE = 128
+MEMORY_FRAME_CAPACITY = 10000
+
 GAMMA = 0.99        #discount factor
 
 EPSILON_START = 0.99    #epsilon start value
@@ -18,38 +16,7 @@ EPSILON_DECAY = 1000    #epsilon decay factor
 TARGET_UPDATE_RATE = 0.005  #update rate of the target network
 LEARNING_RATE = 0.0001      #learning rate for the Adam optimizer
 
-racer = RaceCarDriver(env, LEARNING_RATE, GAMMA, EPSILON_START, EPSILON_END, EPSILON_DECAY, TARGET_UPDATE_RATE, 10000, BATCH_SIZE, device)
-
-# racer.train(200000) #train agent on 200k timesteps
-
-# racer.train(100000) #train agent on 100k timesteps
-
-# racer.train(10000) #train agent on 10k timesteps
-
-# LOAD 10 episode TIME STEP MODEL
-# custom_policy_cnn_path = os.path.join('Training', 'Saved Models', 'Custom_P_Driving_Model_10ep')
-# custom_target_cnn_path = os.path.join('Training', 'Saved Models', 'Custom_T_Driving_Model_10ep')
-# racer.loadModel(custom_policy_cnn_path, custom_target_cnn_path, 10000)
-
-# #LOAD 40k TIME STEP MODEL
-# custom_policy_cnn_path_40196 = os.path.join('Training', 'Saved Models', 'Custom_P_Driving_Model_40196steps')
-# custom_target_cnn_path_40196 = os.path.join('Training', 'Saved Models', 'Custom_T_Driving_Model_40196steps')
-# racer.loadModel(custom_policy_cnn_path_40196, custom_target_cnn_path_40196, 40196)
-
-#LOAD 100k TIME STEP MODEL
-# custom_policy_cnn_path_100490 = os.path.join('Training', 'Saved Models', 'Custom_P_Driving_Model_100490steps')
-# custom_target_cnn_path_100490 = os.path.join('Training', 'Saved Models', 'Custom_T_Driving_Model_100490steps')
-# racer.loadModel(custom_policy_cnn_path_100490, custom_target_cnn_path_100490, 100490)
-
-#LOAD 200k TIME STEP MODEL
-custom_policy_cnn_path_200888 = os.path.join('Training', 'Saved Models', 'Custom_P_Driving_Model_200888steps')
-custom_target_cnn_path_200888 = os.path.join('Training', 'Saved Models', 'Custom_T_Driving_Model_200888steps')
-racer.loadModel(custom_policy_cnn_path_200888, custom_target_cnn_path_200888, 200888)
-testAgent(env, racer, 5)
-
-#"""
-
-def testAgent(env, agent, numEps):
+def testAgent(env, agent, numEps, device="cpu"):
     
     print("Testing")
     
@@ -89,9 +56,144 @@ def testAgent(env, agent, numEps):
     
         print('Episode: {}, Episode Reward: {}'.format(ep_count, episode_reward))
         totalReward += episode_reward
+    env.reset()
     env.close()
     
     print("Average reward over " + str(max_ep) + " episodes: " + str(totalReward / max_ep))
+
+# def chooseAgent(choice):
+    
+def main():
+
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+    while True:
+        print("-----------------------------------------")
+
+        print("[1] Test pre-trained models | [2] Train your own  | [3] Exit ")
+        choice1 = int(input("Please choose an option: "))
+
+        if choice1 == 1:
+            #user chooses to test pre trained models
+            env = gymnasium.make("CarRacing-v2",continuous=False, render_mode="human")
+            racer = RaceCarDriver(env, LEARNING_RATE, GAMMA, EPSILON_START, EPSILON_END, EPSILON_DECAY, TARGET_UPDATE_RATE, MEMORY_FRAME_CAPACITY, BATCH_SIZE, device)
+            
+            goBack = False
+            #loop to get user input
+            while True:
+                
+                print("[1] - 10,000 timesteps\n[2] - 40,196 timesteps\n[3] - 100,490 timesteps\n[4] - 200,888 timesteps\n[5] - go back")
+                choice2 = int(input("Which model would you like to test? "))
+                
+                if choice2 == 1: 
+                    #test 10,000 timestep model
+                    custom_policy_cnn_path = os.path.join('Training', 'Saved Models', 'Custom_CNN_10ep', 'Custom_P_Driving_Model_10ep')
+                    custom_target_cnn_path = os.path.join('Training', 'Saved Models', 'Custom_CNN_10ep', 'Custom_T_Driving_Model_10ep')
+                    racer.loadModel(custom_policy_cnn_path, custom_target_cnn_path, 10000)
+                    break
+
+                elif choice2 == 2:
+                    #test 40,196 timestep model
+                    custom_policy_cnn_path_40196 = os.path.join('Training', 'Saved Models', 'Custom_CNN_40196', 'Custom_P_Driving_Model_40196steps')
+                    custom_target_cnn_path_40196 = os.path.join('Training', 'Saved Models', 'Custom_CNN_40196', 'Custom_T_Driving_Model_40196steps')
+                    racer.loadModel(custom_policy_cnn_path_40196, custom_target_cnn_path_40196, 40196)
+                    break
+                elif choice2 == 3:
+                    #test 100,490 timestep model
+                    custom_policy_cnn_path_100490 = os.path.join('Training', 'Saved Models', 'Custom_CNN_100490', 'Custom_P_Driving_Model_100490steps')
+                    custom_target_cnn_path_100490 = os.path.join('Training', 'Saved Models', 'Custom_CNN_100490', 'Custom_T_Driving_Model_100490steps')
+                    racer.loadModel(custom_policy_cnn_path_100490, custom_target_cnn_path_100490, 100490)
+                    break
+                elif choice2 == 4:
+                    #test 200,888 timestep model
+                    custom_policy_cnn_path_200888 = os.path.join('Training', 'Saved Models', 'Custom_CNN_200888','Custom_P_Driving_Model_200888steps')
+                    custom_target_cnn_path_200888 = os.path.join('Training', 'Saved Models', 'Custom_CNN_200888','Custom_T_Driving_Model_200888steps')
+                    racer.loadModel(custom_policy_cnn_path_200888, custom_target_cnn_path_200888, 200888)
+                    break
+                elif choice2 == 5:
+                    #user wants to go back
+                    goBack = True
+                    break
+                else:
+                    #invalid choice
+                    print("invalid choice")
+                    continue
+            
+            if goBack is True:
+                continue
+            
+
+            numEps = int(input("Please enter the number of episodes you want to test for: "))
+
+            if numEps >= 1 and numEps < 100:
+                testAgent(env, racer, numEps, device)
+                continue
+            else:
+                testAgent(env, racer, 1, device)
+                continue
+
+
+
+        elif choice1 == 2:
+            #user wants to train their own agent
+            env = gymnasium.make("CarRacing-v2",continuous=False)
+            racer = RaceCarDriver(env, LEARNING_RATE, GAMMA, EPSILON_START, EPSILON_END, EPSILON_DECAY, TARGET_UPDATE_RATE, MEMORY_FRAME_CAPACITY, BATCH_SIZE, device)
+
+            timeStepsWanted = 0
+            while True:
+                try:
+                    timeStepsWanted = int(input("Please enter the number of timesteps you would like to train the agent: "))
+                    if timeStepsWanted > 0:
+                        break
+                except:
+                    print("please enter a number greater than 0 ")
+                    continue
+            
+            racer.train(timeStepsWanted)
+            #after training is done, show a test run
+            env = gymnasium.make("CarRacing-v2",continuous=False, render_mode="human")
+            testAgent(env, racer, 1)
+            
+
+
+            
+        elif choice1 == 3:
+            exit()
+        else:
+            print("invalid choice")
+            continue
+
+
+main()
+
+# racer.train(200000) #train agent on 200k timesteps
+
+# racer.train(100000) #train agent on 100k timesteps
+
+# racer.train(10000) #train agent on 10k timesteps
+
+# LOAD 10 episode TIME STEP MODEL
+# custom_policy_cnn_path = os.path.join('Training', 'Saved Models', 'Custom_P_Driving_Model_10ep')
+# custom_target_cnn_path = os.path.join('Training', 'Saved Models', 'Custom_T_Driving_Model_10ep')
+# racer.loadModel(custom_policy_cnn_path, custom_target_cnn_path, 10000)
+
+# #LOAD 40k TIME STEP MODEL
+# custom_policy_cnn_path_40196 = os.path.join('Training', 'Saved Models', 'Custom_P_Driving_Model_40196steps')
+# custom_target_cnn_path_40196 = os.path.join('Training', 'Saved Models', 'Custom_T_Driving_Model_40196steps')
+# racer.loadModel(custom_policy_cnn_path_40196, custom_target_cnn_path_40196, 40196)
+
+#LOAD 100k TIME STEP MODEL
+# custom_policy_cnn_path_100490 = os.path.join('Training', 'Saved Models', 'Custom_P_Driving_Model_100490steps')
+# custom_target_cnn_path_100490 = os.path.join('Training', 'Saved Models', 'Custom_T_Driving_Model_100490steps')
+# racer.loadModel(custom_policy_cnn_path_100490, custom_target_cnn_path_100490, 100490)
+
+#LOAD 200k TIME STEP MODEL
+# custom_policy_cnn_path_200888 = os.path.join('Training', 'Saved Models', 'Custom_P_Driving_Model_200888steps')
+# custom_target_cnn_path_200888 = os.path.join('Training', 'Saved Models', 'Custom_T_Driving_Model_200888steps')
+# racer.loadModel(custom_policy_cnn_path_200888, custom_target_cnn_path_200888, 200888)
+# testAgent(env, racer, 5)
+
+#"""
 
 #"""
 
