@@ -17,6 +17,8 @@ Navigate to the directory containing the requirements.txt file and run the follo
 **Downloading the Models**
 From the following link please download the folder named "Saved Models" containing the zip files for each of the trained models. 
 
+__Google Drive Link:__ [https://drive.google.com/drive/folders/1pETgxYtk1l2JLaHBiwXG8eXimyw0G18q?usp=sharing](https://drive.google.com/drive/folders/1pETgxYtk1l2JLaHBiwXG8eXimyw0G18q?usp=sharing)
+
 Navigate to the "Training" directory and replace the existing "Saved Models" folder with the one downloaded from Google Drive. 
 
 Unzip each of the models you want to use.
