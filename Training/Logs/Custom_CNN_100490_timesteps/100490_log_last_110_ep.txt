@@ -1,0 +1,1006 @@
+Ending episode 108
+ | episode reward: 14.350310559006244
+ | episode elapsed time: 27.21981120109558
+ | episode timesteps: 136
+ | total elapsed time: 2242.45942902565
+ | total timesteps: 12044
+---------------------
+---------------------
+Starting episode 109
+Ending episode 109
+ | episode reward: 26.676706827309175
+ | episode elapsed time: 32.684478998184204
+ | episode timesteps: 175
+ | total elapsed time: 2275.143986940384
+ | total timesteps: 12219
+---------------------
+---------------------
+Starting episode 110
+Ending episode 110
+ | episode reward: 81.96486486486518
+ | episode elapsed time: 59.85471510887146
+ | episode timesteps: 329
+ | total elapsed time: 2334.9987709522247
+ | total timesteps: 12548
+---------------------
+---------------------
+Starting episode 111
+Ending episode 111
+ | episode reward: 54.620359281436905
+ | episode elapsed time: 66.4473168849945
+ | episode timesteps: 352
+ | total elapsed time: 2401.446158885956
+ | total timesteps: 12900
+---------------------
+---------------------
+Starting episode 112
+Ending episode 112
+ | episode reward: 20.848881789137344
+ | episode elapsed time: 21.219676971435547
+ | episode timesteps: 111
+ | total elapsed time: 2422.6659049987793
+ | total timesteps: 13011
+---------------------
+---------------------
+Starting episode 113
+Ending episode 113
+ | episode reward: 22.799999999999915
+ | episode elapsed time: 31.7320339679718
+ | episode timesteps: 172
+ | total elapsed time: 2454.398005962372
+ | total timesteps: 13183
+---------------------
+---------------------
+Starting episode 114
+Ending episode 114
+ | episode reward: 15.977777777777776
+ | episode elapsed time: 21.92119812965393
+ | episode timesteps: 118
+ | total elapsed time: 2476.3192851543427
+ | total timesteps: 13301
+---------------------
+---------------------
+Starting episode 115
+Ending episode 115
+ | episode reward: 6.105442176870774
+ | episode elapsed time: 14.306848049163818
+ | episode timesteps: 75
+ | total elapsed time: 2490.626204967499
+ | total timesteps: 13376
+---------------------
+---------------------
+Starting episode 116
+Ending episode 116
+ | episode reward: 135.80566037735963
+ | episode elapsed time: 88.98462104797363
+ | episode timesteps: 491
+ | total elapsed time: 2579.610895872116
+ | total timesteps: 13867
+---------------------
+---------------------
+Starting episode 117
+Ending episode 117
+ | episode reward: 21.274683544303752
+ | episode elapsed time: 36.718273878097534
+ | episode timesteps: 167
+ | total elapsed time: 2616.3292388916016
+ | total timesteps: 14034
+---------------------
+---------------------
+Starting episode 118
+Ending episode 118
+ | episode reward: 19.170033670033646
+ | episode elapsed time: 29.527834177017212
+ | episode timesteps: 145
+ | total elapsed time: 2645.857139110565
+ | total timesteps: 14179
+---------------------
+---------------------
+Starting episode 119
+Ending episode 119
+ | episode reward: 9.272131147541021
+ | episode elapsed time: 21.14162302017212
+ | episode timesteps: 104
+ | total elapsed time: 2666.9988298416138
+ | total timesteps: 14283
+---------------------
+---------------------
+Starting episode 120
+Ending episode 120
+ | episode reward: 64.20909090909086
+ | episode elapsed time: 63.24333620071411
+ | episode timesteps: 267
+ | total elapsed time: 2730.2422511577606
+ | total timesteps: 14550
+---------------------
+---------------------
+Starting episode 121
+Ending episode 121
+ | episode reward: 59.57197452229276
+ | episode elapsed time: 137.32775497436523
+ | episode timesteps: 296
+ | total elapsed time: 2867.5702419281006
+ | total timesteps: 14846
+---------------------
+---------------------
+Starting episode 122
+Ending episode 122
+ | episode reward: 229.07348242811884
+ | episode elapsed time: 481.573707818985
+ | episode timesteps: 1000
+ | total elapsed time: 3349.1440868377686
+ | total timesteps: 15846
+---------------------
+---------------------
+Starting episode 123
+Ending episode 123
+ | episode reward: 99.10071684587881
+ | episode elapsed time: 462.0144429206848
+ | episode timesteps: 371
+ | total elapsed time: 3811.1586570739746
+ | total timesteps: 16217
+---------------------
+---------------------
+Starting episode 124
+Ending episode 124
+ | episode reward: 20.94671532846711
+ | episode elapsed time: 28.332037925720215
+ | episode timesteps: 119
+ | total elapsed time: 3839.491119861603
+ | total timesteps: 16336
+---------------------
+---------------------
+Starting episode 125
+Ending episode 125
+ | episode reward: 254.14871794872082
+ | episode elapsed time: 220.06792092323303
+ | episode timesteps: 888
+ | total elapsed time: 4059.559126853943
+ | total timesteps: 17224
+---------------------
+---------------------
+Starting episode 126
+Ending episode 126
+ | episode reward: 67.65384615384617
+ | episode elapsed time: 65.82637476921082
+ | episode timesteps: 285
+ | total elapsed time: 4125.385718822479
+ | total timesteps: 17509
+---------------------
+---------------------
+Starting episode 127
+Ending episode 127
+ | episode reward: 156.684353741498
+ | episode elapsed time: 108.39116024971008
+ | episode timesteps: 542
+ | total elapsed time: 4233.776967048645
+ | total timesteps: 18051
+---------------------
+---------------------
+Starting episode 128
+Ending episode 128
+ | episode reward: 65.64529616724727
+ | episode elapsed time: 70.67500185966492
+ | episode timesteps: 354
+ | total elapsed time: 4304.452036857605
+ | total timesteps: 18405
+---------------------
+---------------------
+Starting episode 129
+Ending episode 129
+ | episode reward: 291.79104477611827
+ | episode elapsed time: 199.58641290664673
+ | episode timesteps: 1000
+ | total elapsed time: 4504.03852391243
+ | total timesteps: 19405
+---------------------
+---------------------
+Starting episode 130
+Ending episode 130
+ | episode reward: 225.47087378641046
+ | episode elapsed time: 171.5309019088745
+ | episode timesteps: 755
+ | total elapsed time: 4675.569504976273
+ | total timesteps: 20160
+---------------------
+---------------------
+Starting episode 131
+Ending episode 131
+ | episode reward: 251.09717868338933
+ | episode elapsed time: 379.50590419769287
+ | episode timesteps: 1000
+ | total elapsed time: 5055.075487136841
+ | total timesteps: 21160
+---------------------
+---------------------
+Starting episode 132
+Ending episode 132
+ | episode reward: 355.1727272727229
+ | episode elapsed time: 150.4762580394745
+ | episode timesteps: 921
+ | total elapsed time: 5205.551797151566
+ | total timesteps: 22081
+---------------------
+---------------------
+Starting episode 133
+Ending episode 133
+ | episode reward: 122.83465703971177
+ | episode elapsed time: 56.997004985809326
+ | episode timesteps: 324
+ | total elapsed time: 5262.548908948898
+ | total timesteps: 22405
+---------------------
+---------------------
+Starting episode 134
+Ending episode 134
+ | episode reward: 239.17835051546615
+ | episode elapsed time: 130.57182574272156
+ | episode timesteps: 701
+ | total elapsed time: 5393.120803833008
+ | total timesteps: 23106
+---------------------
+---------------------
+Starting episode 135
+Ending episode 135
+ | episode reward: 437.84860557767945
+ | episode elapsed time: 202.74878406524658
+ | episode timesteps: 1000
+ | total elapsed time: 5595.869668006897
+ | total timesteps: 24106
+---------------------
+---------------------
+Starting episode 136
+Ending episode 136
+ | episode reward: 12.808163265306147
+ | episode elapsed time: 15.101590871810913
+ | episode timesteps: 76
+ | total elapsed time: 5610.971335887909
+ | total timesteps: 24182
+---------------------
+---------------------
+Starting episode 137
+Ending episode 137
+ | episode reward: 488.2352941176406
+ | episode elapsed time: 203.64317202568054
+ | episode timesteps: 1000
+ | total elapsed time: 5814.614579916
+ | total timesteps: 25182
+---------------------
+---------------------
+Starting episode 138
+Ending episode 138
+ | episode reward: 234.4666666666692
+ | episode elapsed time: 119.39425015449524
+ | episode timesteps: 622
+ | total elapsed time: 5934.008897066116
+ | total timesteps: 25804
+---------------------
+---------------------
+Starting episode 139
+Ending episode 139
+ | episode reward: 111.45714285714327
+ | episode elapsed time: 58.57998204231262
+ | episode timesteps: 314
+ | total elapsed time: 5992.588947057724
+ | total timesteps: 26118
+---------------------
+---------------------
+Starting episode 140
+Ending episode 140
+ | episode reward: 428.0164556961953
+ | episode elapsed time: 183.2213659286499
+ | episode timesteps: 973
+ | total elapsed time: 6175.810381889343
+ | total timesteps: 27091
+---------------------
+---------------------
+Starting episode 141
+Ending episode 141
+ | episode reward: 514.5833333333254
+ | episode elapsed time: 202.39991188049316
+ | episode timesteps: 1000
+ | total elapsed time: 6378.21036195755
+ | total timesteps: 28091
+---------------------
+---------------------
+Starting episode 142
+Ending episode 142
+ | episode reward: 9.56484641638228
+ | episode elapsed time: 19.55299472808838
+ | episode timesteps: 75
+ | total elapsed time: 6397.763426780701
+ | total timesteps: 28166
+---------------------
+---------------------
+Starting episode 143
+Ending episode 143
+ | episode reward: 345.7478005865066
+ | episode elapsed time: 217.47495079040527
+ | episode timesteps: 1000
+ | total elapsed time: 6615.238469839096
+ | total timesteps: 29166
+---------------------
+---------------------
+Starting episode 144
+Ending episode 144
+ | episode reward: 399.99999999999517
+ | episode elapsed time: 188.91870403289795
+ | episode timesteps: 1000
+ | total elapsed time: 6804.15723991394
+ | total timesteps: 30166
+---------------------
+---------------------
+Starting episode 145
+Ending episode 145
+ | episode reward: 152.0565543071171
+ | episode elapsed time: 78.78260135650635
+ | episode timesteps: 427
+ | total elapsed time: 6882.939905166626
+ | total timesteps: 30593
+---------------------
+---------------------
+Starting episode 146
+Ending episode 146
+ | episode reward: 626.6435986159079
+ | episode elapsed time: 197.509507894516
+ | episode timesteps: 1000
+ | total elapsed time: 7080.44947886467
+ | total timesteps: 31593
+---------------------
+---------------------
+Starting episode 147
+Ending episode 147
+ | episode reward: 587.0503597122195
+ | episode elapsed time: 197.11496496200562
+ | episode timesteps: 1000
+ | total elapsed time: 7277.564522027969
+ | total timesteps: 32593
+---------------------
+---------------------
+Starting episode 148
+Ending episode 148
+ | episode reward: 382.038187702262
+ | episode elapsed time: 213.4595081806183
+ | episode timesteps: 678
+ | total elapsed time: 7491.024104118347
+ | total timesteps: 33271
+---------------------
+---------------------
+Starting episode 149
+Ending episode 149
+ | episode reward: 655.3956834532247
+ | episode elapsed time: 255.10989689826965
+ | episode timesteps: 1000
+ | total elapsed time: 7746.134224891663
+ | total timesteps: 34271
+---------------------
+---------------------
+Starting episode 150
+Ending episode 150
+ | episode reward: 773.6842105263013
+ | episode elapsed time: 235.73356223106384
+ | episode timesteps: 1000
+ | total elapsed time: 7981.867891073227
+ | total timesteps: 35271
+---------------------
+---------------------
+Starting episode 151
+Ending episode 151
+ | episode reward: 697.8339350180419
+ | episode elapsed time: 293.97040724754333
+ | episode timesteps: 1000
+ | total elapsed time: 8275.838389158249
+ | total timesteps: 36271
+---------------------
+---------------------
+Starting episode 152
+Ending episode 152
+ | episode reward: 591.0299003322165
+ | episode elapsed time: 291.5001871585846
+ | episode timesteps: 1000
+ | total elapsed time: 8567.338689088821
+ | total timesteps: 37271
+---------------------
+---------------------
+Starting episode 153
+Ending episode 153
+ | episode reward: 659.1240875912301
+ | episode elapsed time: 266.64394187927246
+ | episode timesteps: 1000
+ | total elapsed time: 8833.982732772827
+ | total timesteps: 38271
+---------------------
+---------------------
+Starting episode 154
+Ending episode 154
+ | episode reward: 698.5611510791232
+ | episode elapsed time: 249.2942190170288
+ | episode timesteps: 1000
+ | total elapsed time: 9083.277040958405
+ | total timesteps: 39271
+---------------------
+---------------------
+Starting episode 155
+Ending episode 155
+ | episode reward: 661.5384615384517
+ | episode elapsed time: 228.44588708877563
+ | episode timesteps: 1000
+ | total elapsed time: 9311.723008155823
+ | total timesteps: 40271
+---------------------
+---------------------
+Starting episode 156
+Ending episode 156
+ | episode reward: 731.9999999999884
+ | episode elapsed time: 226.24213194847107
+ | episode timesteps: 1000
+ | total elapsed time: 9537.965230941772
+ | total timesteps: 41271
+---------------------
+---------------------
+Starting episode 157
+Ending episode 157
+ | episode reward: 416.81648351648045
+ | episode elapsed time: 148.162535905838
+ | episode timesteps: 667
+ | total elapsed time: 9686.127847909927
+ | total timesteps: 41938
+---------------------
+---------------------
+Starting episode 158
+Ending episode 158
+ | episode reward: 586.0068259385547
+ | episode elapsed time: 217.72754669189453
+ | episode timesteps: 1000
+ | total elapsed time: 9903.855471849442
+ | total timesteps: 42938
+---------------------
+---------------------
+Starting episode 159
+Ending episode 159
+ | episode reward: 603.583061889239
+ | episode elapsed time: 215.87489700317383
+ | episode timesteps: 1000
+ | total elapsed time: 10119.730448007584
+ | total timesteps: 43938
+---------------------
+---------------------
+Starting episode 160
+Ending episode 160
+ | episode reward: 776.4940239043744
+ | episode elapsed time: 210.30307006835938
+ | episode timesteps: 1000
+ | total elapsed time: 10330.033610105515
+ | total timesteps: 44938
+---------------------
+---------------------
+Starting episode 161
+Ending episode 161
+ | episode reward: 655.31914893616
+ | episode elapsed time: 219.75496101379395
+ | episode timesteps: 1000
+ | total elapsed time: 10549.788641929626
+ | total timesteps: 45938
+---------------------
+---------------------
+Starting episode 162
+Ending episode 162
+ | episode reward: 641.214057507978
+ | episode elapsed time: 210.40077185630798
+ | episode timesteps: 1000
+ | total elapsed time: 10760.189507961273
+ | total timesteps: 46938
+---------------------
+---------------------
+Starting episode 163
+Ending episode 163
+ | episode reward: 764.7686832740101
+ | episode elapsed time: 204.52087306976318
+ | episode timesteps: 1000
+ | total elapsed time: 10964.71044588089
+ | total timesteps: 47938
+---------------------
+---------------------
+Starting episode 164
+Ending episode 164
+ | episode reward: 730.4498269896118
+ | episode elapsed time: 201.48587918281555
+ | episode timesteps: 1000
+ | total elapsed time: 11166.196402072906
+ | total timesteps: 48938
+---------------------
+---------------------
+Starting episode 165
+Ending episode 165
+ | episode reward: 272.91319648093923
+ | episode elapsed time: 126.45842504501343
+ | episode timesteps: 526
+ | total elapsed time: 11292.654900074005
+ | total timesteps: 49464
+---------------------
+---------------------
+Starting episode 166
+Ending episode 166
+ | episode reward: 856.8106312292264
+ | episode elapsed time: 200.76248812675476
+ | episode timesteps: 1000
+ | total elapsed time: 11493.417455911636
+ | total timesteps: 50464
+---------------------
+---------------------
+Starting episode 167
+Ending episode 167
+ | episode reward: 792.4731182795578
+ | episode elapsed time: 199.36837005615234
+ | episode timesteps: 1000
+ | total elapsed time: 11692.785897016525
+ | total timesteps: 51464
+---------------------
+---------------------
+Starting episode 168
+Ending episode 168
+ | episode reward: 812.2807017543704
+ | episode elapsed time: 198.83738017082214
+ | episode timesteps: 1000
+ | total elapsed time: 11891.623354911804
+ | total timesteps: 52464
+---------------------
+---------------------
+Starting episode 169
+Ending episode 169
+ | episode reward: 733.3333333333234
+ | episode elapsed time: 201.42977905273438
+ | episode timesteps: 1000
+ | total elapsed time: 12093.053214073181
+ | total timesteps: 53464
+---------------------
+---------------------
+Starting episode 170
+Ending episode 170
+ | episode reward: 737.2881355932086
+ | episode elapsed time: 208.2537488937378
+ | episode timesteps: 1000
+ | total elapsed time: 12301.307036876678
+ | total timesteps: 54464
+---------------------
+---------------------
+Starting episode 171
+Ending episode 171
+ | episode reward: 742.293906810023
+ | episode elapsed time: 477.67786026000977
+ | episode timesteps: 1000
+ | total elapsed time: 12778.985035181046
+ | total timesteps: 55464
+---------------------
+---------------------
+Starting episode 172
+Ending episode 172
+ | episode reward: 761.8181818181679
+ | episode elapsed time: 208.8747057914734
+ | episode timesteps: 1000
+ | total elapsed time: 12987.859855890274
+ | total timesteps: 56464
+---------------------
+---------------------
+Starting episode 173
+Ending episode 173
+ | episode reward: 802.0270270270105
+ | episode elapsed time: 199.2624020576477
+ | episode timesteps: 1000
+ | total elapsed time: 13187.122334003448
+ | total timesteps: 57464
+---------------------
+---------------------
+Starting episode 174
+Ending episode 174
+ | episode reward: 829.3680297397652
+ | episode elapsed time: 200.9558207988739
+ | episode timesteps: 1000
+ | total elapsed time: 13388.078219890594
+ | total timesteps: 58464
+---------------------
+---------------------
+Starting episode 175
+Ending episode 175
+ | episode reward: 643.0340557275464
+ | episode elapsed time: 208.9980070590973
+ | episode timesteps: 1000
+ | total elapsed time: 13597.076308965683
+ | total timesteps: 59464
+---------------------
+---------------------
+Starting episode 176
+Ending episode 176
+ | episode reward: 442.0999999999956
+ | episode elapsed time: 149.82874488830566
+ | episode timesteps: 579
+ | total elapsed time: 13746.905128002167
+ | total timesteps: 60043
+---------------------
+---------------------
+Starting episode 177
+Ending episode 177
+ | episode reward: 874.91039426522
+ | episode elapsed time: 263.80479621887207
+ | episode timesteps: 1000
+ | total elapsed time: 14010.710024118423
+ | total timesteps: 61043
+---------------------
+---------------------
+Starting episode 178
+Ending episode 178
+ | episode reward: 681.5384615384526
+ | episode elapsed time: 198.2094259262085
+ | episode timesteps: 1000
+ | total elapsed time: 14208.9195458889
+ | total timesteps: 62043
+---------------------
+---------------------
+Starting episode 179
+Ending episode 179
+ | episode reward: 882.4561403508609
+ | episode elapsed time: 191.70984292030334
+ | episode timesteps: 1000
+ | total elapsed time: 14400.62945485115
+ | total timesteps: 63043
+---------------------
+---------------------
+Starting episode 180
+Ending episode 180
+ | episode reward: 818.3006535947532
+ | episode elapsed time: 193.82678508758545
+ | episode timesteps: 1000
+ | total elapsed time: 14594.456316947937
+ | total timesteps: 64043
+---------------------
+---------------------
+Starting episode 181
+Ending episode 181
+ | episode reward: 900.1999999999819
+ | episode elapsed time: 204.13141989707947
+ | episode timesteps: 998
+ | total elapsed time: 14798.58781504631
+ | total timesteps: 65041
+---------------------
+---------------------
+Starting episode 182
+Ending episode 182
+ | episode reward: 291.22331288343486
+ | episode elapsed time: 93.87191414833069
+ | episode timesteps: 462
+ | total elapsed time: 14892.45980811119
+ | total timesteps: 65503
+---------------------
+---------------------
+Starting episode 183
+Ending episode 183
+ | episode reward: 882.5432835820747
+ | episode elapsed time: 230.616201877594
+ | episode timesteps: 988
+ | total elapsed time: 15123.07608294487
+ | total timesteps: 66491
+---------------------
+---------------------
+Starting episode 184
+Ending episode 184
+ | episode reward: 819.0140845070263
+ | episode elapsed time: 221.76675176620483
+ | episode timesteps: 1000
+ | total elapsed time: 15344.842955827713
+ | total timesteps: 67491
+---------------------
+---------------------
+Starting episode 185
+Ending episode 185
+ | episode reward: 375.96226415094054
+ | episode elapsed time: 121.30997490882874
+ | episode timesteps: 580
+ | total elapsed time: 15466.15301990509
+ | total timesteps: 68071
+---------------------
+---------------------
+Starting episode 186
+Ending episode 186
+ | episode reward: 774.9999999999843
+ | episode elapsed time: 214.88932704925537
+ | episode timesteps: 1000
+ | total elapsed time: 15681.042429924011
+ | total timesteps: 69071
+---------------------
+---------------------
+Starting episode 187
+Ending episode 187
+ | episode reward: 720.598006644508
+ | episode elapsed time: 226.535542011261
+ | episode timesteps: 1000
+ | total elapsed time: 15907.57805800438
+ | total timesteps: 70071
+---------------------
+---------------------
+Starting episode 188
+Ending episode 188
+ | episode reward: 783.3922261483972
+ | episode elapsed time: 233.98126316070557
+ | episode timesteps: 1000
+ | total elapsed time: 16141.559401035309
+ | total timesteps: 71071
+---------------------
+---------------------
+Starting episode 189
+Ending episode 189
+ | episode reward: 878.7234042553079
+ | episode elapsed time: 245.54246401786804
+ | episode timesteps: 1000
+ | total elapsed time: 16387.101970911026
+ | total timesteps: 72071
+---------------------
+---------------------
+Starting episode 190
+Ending episode 190
+ | episode reward: 322.53943661971795
+ | episode elapsed time: 156.19688487052917
+ | episode timesteps: 507
+ | total elapsed time: 16543.29896092415
+ | total timesteps: 72578
+---------------------
+---------------------
+Starting episode 191
+Ending episode 191
+ | episode reward: 867.7419354838576
+ | episode elapsed time: 293.4825117588043
+ | episode timesteps: 1000
+ | total elapsed time: 16836.781592845917
+ | total timesteps: 73578
+---------------------
+---------------------
+Starting episode 192
+Ending episode 192
+ | episode reward: 799.653979238746
+ | episode elapsed time: 294.32322216033936
+ | episode timesteps: 1000
+ | total elapsed time: 17131.104923009872
+ | total timesteps: 74578
+---------------------
+---------------------
+Starting episode 193
+Ending episode 193
+ | episode reward: 889.2473118279437
+ | episode elapsed time: 296.50799894332886
+ | episode timesteps: 1000
+ | total elapsed time: 17427.613029956818
+ | total timesteps: 75578
+---------------------
+---------------------
+Starting episode 194
+Ending episode 194
+ | episode reward: 791.5254237288009
+ | episode elapsed time: 276.4255430698395
+ | episode timesteps: 1000
+ | total elapsed time: 17704.038691997528
+ | total timesteps: 76578
+---------------------
+---------------------
+Starting episode 195
+Ending episode 195
+ | episode reward: 754.0145985401335
+ | episode elapsed time: 262.33729887008667
+ | episode timesteps: 1000
+ | total elapsed time: 17966.376091957092
+ | total timesteps: 77578
+---------------------
+---------------------
+Starting episode 196
+Ending episode 196
+ | episode reward: 716.7701863353888
+ | episode elapsed time: 246.2735161781311
+ | episode timesteps: 1000
+ | total elapsed time: 18212.649703025818
+ | total timesteps: 78578
+---------------------
+---------------------
+Starting episode 197
+Ending episode 197
+ | episode reward: 891.7640449438095
+ | episode elapsed time: 278.3960511684418
+ | episode timesteps: 970
+ | total elapsed time: 18491.04584503174
+ | total timesteps: 79548
+---------------------
+---------------------
+Starting episode 198
+Ending episode 198
+ | episode reward: 733.3333333333233
+ | episode elapsed time: 241.7845380306244
+ | episode timesteps: 1000
+ | total elapsed time: 18732.830465078354
+ | total timesteps: 80548
+---------------------
+---------------------
+Starting episode 199
+Ending episode 199
+ | episode reward: 887.7999999999881
+ | episode elapsed time: 207.72195315361023
+ | episode timesteps: 922
+ | total elapsed time: 18940.552641153336
+ | total timesteps: 81470
+---------------------
+---------------------
+Starting episode 200
+Ending episode 200
+ | episode reward: 775.7763975155132
+ | episode elapsed time: 224.73280096054077
+ | episode timesteps: 1000
+ | total elapsed time: 19165.28551888466
+ | total timesteps: 82470
+---------------------
+---------------------
+Starting episode 201
+Ending episode 201
+ | episode reward: 780.7947019867461
+ | episode elapsed time: 223.67880296707153
+ | episode timesteps: 1000
+ | total elapsed time: 19388.964421987534
+ | total timesteps: 83470
+---------------------
+---------------------
+Starting episode 202
+Ending episode 202
+ | episode reward: 833.0985915492788
+ | episode elapsed time: 219.84785199165344
+ | episode timesteps: 1000
+ | total elapsed time: 19608.812354803085
+ | total timesteps: 84470
+---------------------
+---------------------
+Starting episode 203
+Ending episode 203
+ | episode reward: 900.8318725099518
+ | episode elapsed time: 201.59679579734802
+ | episode timesteps: 912
+ | total elapsed time: 19810.409242868423
+ | total timesteps: 85382
+---------------------
+---------------------
+Starting episode 204
+Ending episode 204
+ | episode reward: 541.7343949044497
+ | episode elapsed time: 167.12488985061646
+ | episode timesteps: 761
+ | total elapsed time: 19977.534210920334
+ | total timesteps: 86143
+---------------------
+---------------------
+Starting episode 205
+Ending episode 205
+ | episode reward: 808.1967213114639
+ | episode elapsed time: 221.75803923606873
+ | episode timesteps: 1000
+ | total elapsed time: 20199.29234600067
+ | total timesteps: 87143
+---------------------
+---------------------
+Starting episode 206
+Ending episode 206
+ | episode reward: 831.2714776632139
+ | episode elapsed time: 221.71331119537354
+ | episode timesteps: 1000
+ | total elapsed time: 20421.005736112595
+ | total timesteps: 88143
+---------------------
+---------------------
+Starting episode 207
+Ending episode 207
+ | episode reward: 874.2571428571282
+ | episode elapsed time: 205.54514288902283
+ | episode timesteps: 936
+ | total elapsed time: 20626.550952911377
+ | total timesteps: 89079
+---------------------
+---------------------
+Starting episode 208
+Ending episode 208
+ | episode reward: 913.8999999999902
+ | episode elapsed time: 187.31439113616943
+ | episode timesteps: 861
+ | total elapsed time: 20813.86542916298
+ | total timesteps: 89940
+---------------------
+---------------------
+Starting episode 209
+Ending episode 209
+ | episode reward: 889.6551724137774
+ | episode elapsed time: 218.93652725219727
+ | episode timesteps: 1000
+ | total elapsed time: 21032.802035093307
+ | total timesteps: 90940
+---------------------
+---------------------
+Starting episode 210
+Ending episode 210
+ | episode reward: 862.5850340135961
+ | episode elapsed time: 219.1672282218933
+ | episode timesteps: 1000
+ | total elapsed time: 21251.96935415268
+ | total timesteps: 91940
+---------------------
+---------------------
+Starting episode 211
+Ending episode 211
+ | episode reward: 885.815602836868
+ | episode elapsed time: 219.31058502197266
+ | episode timesteps: 1000
+ | total elapsed time: 21471.28001689911
+ | total timesteps: 92940
+---------------------
+---------------------
+Starting episode 212
+Ending episode 212
+ | episode reward: 796.5517241379166
+ | episode elapsed time: 214.53177070617676
+ | episode timesteps: 1000
+ | total elapsed time: 21685.81187582016
+ | total timesteps: 93940
+---------------------
+---------------------
+Starting episode 213
+Ending episode 213
+ | episode reward: 748.942598187294
+ | episode elapsed time: 211.64029383659363
+ | episode timesteps: 1000
+ | total elapsed time: 21897.45224881172
+ | total timesteps: 94940
+---------------------
+---------------------
+Starting episode 214
+Ending episode 214
+ | episode reward: 778.472222222207
+ | episode elapsed time: 210.93808698654175
+ | episode timesteps: 1000
+ | total elapsed time: 22108.390418052673
+ | total timesteps: 95940
+---------------------
+---------------------
+Starting episode 215
+Ending episode 215
+ | episode reward: 814.3835616438198
+ | episode elapsed time: 219.61732697486877
+ | episode timesteps: 1000
+ | total elapsed time: 22328.007819890976
+ | total timesteps: 96940
+---------------------
+---------------------
+Starting episode 216
+Ending episode 216
+ | episode reward: 883.3388888888703
+ | episode elapsed time: 204.30927181243896
+ | episode timesteps: 993
+ | total elapsed time: 22532.31716489792
+ | total timesteps: 97933
+---------------------
+---------------------
+Starting episode 217
+Ending episode 217
+ | episode reward: 856.5217391304163
+ | episode elapsed time: 203.15466976165771
+ | episode timesteps: 1000
+ | total elapsed time: 22735.471918821335
+ | total timesteps: 98933
+---------------------
+---------------------
+Starting episode 218
+Ending episode 218
+ | episode reward: 799.6539792387456
+ | episode elapsed time: 204.009122133255
+ | episode timesteps: 1000
+ | total elapsed time: 22939.481110095978
+ | total timesteps: 99933
+---------------------
+---------------------
+Starting episode 219
+Ending episode 219
+ | episode reward: 376.9923076923066
+ | episode elapsed time: 113.19086813926697
+ | episode timesteps: 557
+ | total elapsed time: 23052.672059059143
+ | total timesteps: 100490
+---------------------
