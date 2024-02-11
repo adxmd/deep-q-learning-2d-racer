@@ -1,0 +1,1 @@
+Please read the main README.md to learn how to download the pre-trained models.
